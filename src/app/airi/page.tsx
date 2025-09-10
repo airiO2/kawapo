@@ -4,6 +4,8 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Button from "@/component/button";
 import { Swords } from "lucide-react";
+import { Dog } from "lucide-react";
+import Kawaiiicon from "@/component/Kawaiiicon";
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
         <Button color="#d399abff" link="/">
           登録
         </Button>
+        <Kawaiiicon color="#d399abff" icon={<Dog size={30}></Dog>}></Kawaiiicon>
         <Image
           className={styles.logo}
           src="/next.svg"
