@@ -1,0 +1,16 @@
+.moji {
+  color: white;
+  font-size: 30px;
+}
+.icon {
+  color: rgb(200, 111, 139);
+  padding-top: 22px;
+  padding-left: 20px;
+}
+
+.button {
+  width: 70px;
+  height: 70px;
+  border-color: white;
+  border-radius: 35px;
+}

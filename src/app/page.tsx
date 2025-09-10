@@ -1,11 +1,35 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-
+import type User from "@/types/user";
 export default function Home() {
+  const dummyUser: User = {
+    id: 1,
+    name: "Airi Otsu",
+    email: "test@email.com",
+    isActive: true,
+  };
+
+  const dummyUsers: User[] = [
+    { id: 1, name: "AiriOtsu", email: "test@email.com", isActive: true },
+    { id: 2, name: "JaneSmith", email: "test@email.com", isActive: false },
+    { id: 3, name: "AliceJohn", email: "test@email.com", isActive: true },
+  ];
+
+  console.log("dummyUser:", dummyUser);
+  console.log("dummyUsername:", dummyUser.name);
+
+  console.log("dummyUsers:", dummyUsers);
+  console.log("FirstUser:", dummyUsers[0].name);
+
   return (
     <div className={styles.page}>
+      <div>{dummyUser.name}</div>
+
+      {dummyUsers.map((user) => (
+        <div key={user.id}>{user.name}</div>
+      ))}
+
       <main className={styles.main}>
-      
         <ol>
           <li>
             Get started by editing <code>src/app/page.tsx</code>.
