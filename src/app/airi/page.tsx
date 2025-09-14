@@ -12,6 +12,7 @@ import PostHeader from "@/component/Postheader";
 import Postimage from "@/component/PostImage";
 import PostText from "@/component/Posttext";
 import PostHashtag from "@/component/Posthashtag";
+import Post from "@/component/PostAll";
 
 
 export default function Home() {
@@ -35,6 +36,8 @@ export default function Home() {
         <Postimage link="window.svg" ></Postimage>
         <PostText text="これはいぬです。"></PostText>
         <PostHashtag text="いぬです"></PostHashtag>
+
+        <Post icon="next.svg" name="あいり" image="vercel.svg" text1="いぬ発見しました" text2="いぬです"></Post>
         <Image
           className={styles.logo}
           src="/next.svg"
