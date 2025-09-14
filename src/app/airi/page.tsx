@@ -9,6 +9,7 @@ import Kawaiiicon from "@/component/Kawaiiicon";
 import IDform from "@/component/IDform";
 import Nomalform from "@/component/Nomalform";
 import PostHeader from "@/component/Postheader";
+import Postimage from "@/component/PostImage";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <Nomalform text="本文入力"></Nomalform>
 
         <PostHeader icon="globe.svg" name="あいり"></PostHeader>
+        <Postimage link="window.svg" ></Postimage>
         <Image
           className={styles.logo}
           src="/next.svg"
