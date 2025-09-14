@@ -6,6 +6,9 @@ import Button from "@/component/button";
 import { Swords } from "lucide-react";
 import { Dog } from "lucide-react";
 import Kawaiiicon from "@/component/Kawaiiicon";
+import IDform from "@/component/IDform";
+import Nomalform from "@/component/Nomalform";
+import Post from "@/component/Post";
 
 export default function Home() {
   return (
@@ -15,6 +18,18 @@ export default function Home() {
           登録
         </Button>
         <Kawaiiicon color="#d399abff" icon={<Dog size={30}></Dog>}></Kawaiiicon>
+        <IDform
+          text1="IDを入力"
+          text2="パスワードを入力"
+          text3="LOGIN"
+          link="/"
+        ></IDform>
+        <IDform text1="IDを設定" text2="パスワードを設定" text3="ログイン" link="/"></IDform>
+        <Nomalform text="本文入力"></Nomalform>
+
+        <Post name="あいり" genre="いぬ" icon="globe.svg" post="file.svg" text1="いぬの写真" tag="いぬ">
+
+        </Post>
         <Image
           className={styles.logo}
           src="/next.svg"

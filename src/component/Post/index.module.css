@@ -1,0 +1,36 @@
+.head{
+    display: flex;
+    
+}
+
+.post{
+    background-color: aqua;
+}
+
+.image{
+    background-color: aqua;
+    border-radius: 50%;
+
+}
+
+.name{
+    margin-left: 1rem;
+}
+
+.genre{
+    text-align: right;
+}
+
+.text{
+    font-weight: 700;
+}
+
+.tag{
+    margin-top: 1rem;
+    background-color: pink;
+    color: white;
+    border-radius: 1rem;
+    width: fit-content;
+  height: fit-content;
+  padding: 0.3rem 0.4rem 0.4rem;
+}
