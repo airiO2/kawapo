@@ -11,6 +11,8 @@ import Nomalform from "@/component/Nomalform";
 import PostHeader from "@/component/Postheader";
 import Postimage from "@/component/PostImage";
 import PostText from "@/component/Posttext";
+import PostHashtag from "@/component/Posthashtag";
+
 
 export default function Home() {
   return (
@@ -32,6 +34,7 @@ export default function Home() {
         <PostHeader icon="globe.svg" name="あいり"></PostHeader>
         <Postimage link="window.svg" ></Postimage>
         <PostText text="これはいぬです。"></PostText>
+        <PostHashtag text="いぬです"></PostHashtag>
         <Image
           className={styles.logo}
           src="/next.svg"
