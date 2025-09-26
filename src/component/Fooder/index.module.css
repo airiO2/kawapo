@@ -1,30 +1,33 @@
-.Fooder{
-    display: flex;
+.Fooder {
+  display: flex;
+  background-color: pink;
+  justify-content:space-around;
+  height: 40px;
+ 
 }
 
-.home{
-background-color: pink;
-width: 215px;
-height: 40px;
-text-align: center;
+.home {
+  
+  
+  height: 40px;
+  text-align: center;
+  
 }
 
-.mypage{
-    background-color: pink;
-width: 215px;
-height: 40px;
-text-align: center;
+.mypage {
 
-
+  
+  height: 40px;
+  text-align: center;
 }
 
-.CirclePlus{
-color: white;
-margin-top: 0.5rem;
+.CirclePlus {
+  color: white;
+  margin-top: 0.5rem;
 }
 
-.UnderRound{
-    margin-top: 0.5rem;
-    
-    color: white;
+.UnderRound {
+  margin-top: 0.5rem;
+
+  color: white;
 }

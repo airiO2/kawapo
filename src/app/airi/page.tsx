@@ -14,6 +14,7 @@ import PostText from "@/component/Posttext";
 import PostHashtag from "@/component/Posthashtag";
 import Post from "@/component/PostAll";
 import Fooder from "@/component/Fooder";
+import Header from "@/component/Header";
 
 
 export default function Home() {

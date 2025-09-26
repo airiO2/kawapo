@@ -1,4 +1,6 @@
 .Header {
-  width: 430px;
-  height: 80px;
+  
+  height: 40px;
+  background-color: pink;
+  margin: 0 auto;
 }
