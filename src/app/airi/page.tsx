@@ -13,14 +13,18 @@ import Postimage from "@/component/PostImage";
 import PostText from "@/component/Posttext";
 import PostHashtag from "@/component/Posthashtag";
 import Post from "@/component/PostAll";
+
 import Fooder from "@/component/Fooder";
 import Header from "@/component/Header";
+
+
 
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <Header></Header>
         <Button color="#d399abff" link="/">
           登録
         </Button>
