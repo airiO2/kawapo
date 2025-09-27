@@ -25,7 +25,7 @@ const IDform = ({ text1, text2, text3, link }: IDformProps) => {
 
       <button className={styles.button}>{text3}</button>
       <br></br>
-      <a href="/" className={styles.link}>
+      <a href={link} className={styles.link}>
         新規登録はこちら
       </a>
     </div>
