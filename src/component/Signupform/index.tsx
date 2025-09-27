@@ -8,10 +8,9 @@ interface IDformProps {
   text2?: string;
   text3: string;
   name: string;
-  link: string;
 }
 
-const IDform = ({ text1, text2, text3, name, link }: IDformProps) => {
+const Signupform = ({ text1, text2, text3, name }: IDformProps) => {
   return (
     <div className={styles.IDform}>
       <div className={styles.word}>
@@ -28,9 +27,8 @@ const IDform = ({ text1, text2, text3, name, link }: IDformProps) => {
 
       <button className={styles.button}>{text3}</button>
       <br></br>
-      
     </div>
   );
 };
 
-export default IDform;
+export default Signupform;
