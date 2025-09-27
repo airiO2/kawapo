@@ -3,17 +3,20 @@ import Image from "next/image"
 
 interface PostimageProps{
 link: string;
+tate: number;
+yoko: number;
 };
 
-const Postimage=({link}:PostimageProps)=>{
+const Postimage=({link, tate, yoko}:PostimageProps)=>{
     return(
         <>
         <Image 
         className={styles.Image}
-        width={300}
-        height={300}
+        width={yoko}
+        height={tate}
         alt="PostImage"
         src={link}
+        style={{width:yoko, height:tate}}
         ></Image>
         </>
     );

@@ -35,7 +35,7 @@ export default function Home() {
         <Nomalform text="本文入力"></Nomalform>
 
         <PostHeader icon="globe.svg" name="あいり"></PostHeader>
-        <Postimage link="window.svg" ></Postimage>
+        <Postimage link="window.svg" tate={300} yoko={300} ></Postimage>
         <PostText text="これはいぬです。"></PostText>
         <PostHashtag text="いぬです"></PostHashtag>
 
