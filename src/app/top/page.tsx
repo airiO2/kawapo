@@ -13,7 +13,7 @@ const HOME=()=>{
          className={styles.Image}
          width={300}
          height={300}
-         alt="PostImage"
+         alt="LOGO"
          src={"window.svg"}
          ></Image>
 <Button children="TAP" color="pink" link="/login"></Button>
