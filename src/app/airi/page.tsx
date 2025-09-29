@@ -13,18 +13,14 @@ import Postimage from "@/component/PostImage";
 import PostText from "@/component/Posttext";
 import PostHashtag from "@/component/Posthashtag";
 import Post from "@/component/PostAll";
-
 import Fooder from "@/component/Fooder";
 import Header from "@/component/Header";
-
-
 
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Header></Header>
         <Button color="#d399abff" link="/">
           登録
         </Button>
@@ -39,7 +35,7 @@ export default function Home() {
         <Nomalform text="本文入力"></Nomalform>
 
         <PostHeader icon="globe.svg" name="あいり"></PostHeader>
-        <Postimage link="window.svg" ></Postimage>
+        <Postimage link="window.svg" tate={300} yoko={300} ></Postimage>
         <PostText text="これはいぬです。"></PostText>
         <PostHashtag text="いぬです"></PostHashtag>
 

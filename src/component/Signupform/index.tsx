@@ -7,15 +7,17 @@ interface IDformProps {
   text1: string;
   text2?: string;
   text3: string;
-  link: string;
+  name: string;
 }
 
-const IDform = ({ text1, text2, text3, link }: IDformProps) => {
+const Signupform = ({ text1, text2, text3, name }: IDformProps) => {
   return (
     <div className={styles.IDform}>
       <div className={styles.word}>
-        <h1>ログイン</h1>
+        <h1>会員登録</h1>
         <div className={styles.form}>
+          <p>{name}</p>
+          <input type="text"></input>
           <p>{text1}</p>
           <input type="text"></input>
           <p>{text2}</p>
@@ -25,11 +27,8 @@ const IDform = ({ text1, text2, text3, link }: IDformProps) => {
 
       <button className={styles.button}>{text3}</button>
       <br></br>
-      <a href={link} className={styles.link}>
-        新規登録はこちら
-      </a>
     </div>
   );
 };
 
-export default IDform;
+export default Signupform;
