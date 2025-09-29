@@ -11,7 +11,7 @@ const HOME = () => {
   return (
     <>
     <div className={styles.TopLogo}>
-      <Link href="/home">
+      <Link href="/login">
         <Image
           className={styles.Image}
           width={300}
