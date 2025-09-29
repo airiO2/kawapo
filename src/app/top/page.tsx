@@ -10,6 +10,7 @@ import Button from "@/component/button";
 const HOME = () => {
   return (
     <>
+    <div className={styles.TopLogo}>
       <Link href="/home">
         <Image
           className={styles.Image}
@@ -19,6 +20,7 @@ const HOME = () => {
           src={"globe.svg"}
         ></Image>
       </Link>
+      </div>
     </>
   );
 };
