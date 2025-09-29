@@ -4,5 +4,12 @@
   height: 40px;
   background-color: pink;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
 
+}
+
+.Arrow{
+  color: white;
+  margin-left: 10px;
 }
